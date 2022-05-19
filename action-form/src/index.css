@@ -1,12 +1,15 @@
-.container-frame, #root {
+.container-fluid {
   height: 800px;
-  border: 8px solid grey;
+  border: 20px solid darkgrey;
+  border-top: 80px solid darkgrey;
+  border-bottom: 80px solid darkgrey;
+  border-radius: 12px;
+  position: relative;
 }
 
-.card-text {
+.list-group-item {
   width: 90%;
   border: 1px solid grey;
-  margin: 8% 5% 8% 2.5%;
-  padding-left: 4%;
+  padding-left: 2%;
   background-color: rgba(211, 211, 211, 0.973);
 }
